@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Управління транспорту ЛМР</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="css/materialize.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <link
+      href="css/style.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav class="white" role="navigation">
+        <div class="navbar-fixed container">
+          <a id="logo-container" href="#" class="brand-logo">
+            <img src="img/lmr.png" alt="logo" width="95" />
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#contacts">Контакти</a></li>
+          </ul>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#base">Нормативна база</a></li>
+          </ul>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#about">Про управління</a></li>
+          </ul>
+         
+          <ul id="nav-mobile" class="sidenav">
+            <li><a href="#contacts">Про управління</a></li>
+            <li><a href="#base">Нормативна база</a></li>
+            <li><a href="#about">Контакти</a></li>
+          </ul>
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger" ><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
+    </div>
+
+    <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+      </div>
+      <div class="parallax">
+        <img src="img/02.jpg" alt="Unsplashed background img 1" />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="icon-block">
+              <h2 class="center brown-text">
+                <i class="material-icons">announcement</i>
+              </h2>
+              <h5 class="center">Введіть дані для перевірки постанови</h5>
+              <div class="input-field">
+                <input id="last_name" type="text" class="validate" />
+                <label for="last_name" class="black-text">Номер постанови</label>
+              </div>
+              <div class="input-field">
+                <input id="number" type="text" class="validate" />
+                <label for="number" class="black-text">Номерний знак авто</label>
+              </div>
+              <button
+                class="btn waves-effect blue darken-3"
+                type="submit"
+                name="action"
+              >
+                Перевірити
+              </button>
+            </div>
+          </div>
+
+          <div class="col s12 m6">
+            <div class="icon-block">
+              <h2 class="center brown-text">
+                <i class="material-icons">drive_eta </i>
+              </h2>
+              <h5 class="center">Евакуйовані авто</h5>
+              <div class="input-field">
+                <input id="number" type="text" class="validate" />
+                <label for="number" class="black-text">Номерний знак авто</label>
+              </div>
+              <button
+                class="btn waves-effect blue darken-3"
+                type="submit"
+                name="action"
+              >
+                Знайти
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax-container valign-wrapper" id="about">
+      <div class="parallax">
+        <img src="img/lviv.jpeg" alt="Unsplashed background img 2" />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 center">
+            <h3><i class="mdi-content-send brown-text"></i></h3>
+            <h4>Управління транспорту ЛМР</h4>
+            <ol class="left-align">
+              <li>Загальні положення;</li>
+              <li>Основні завдання;</li>
+              <li>Структура та організація роботи;</li>
+              <li>Компетенція управління;</li>
+              <li>Права управління;</li>
+              <li>
+                Фінансування та матеріально-технічне забезпечення діяльності
+                управління;
+              </li>
+              <li>Відповідальність посадових осіб управління;</li>
+              <li>Заключні положення.</li>
+            </ol>
+            <a
+              href="https://city-adm.lviv.ua/lmr/office/upravlinnia-transportu"
+              target="_blank"
+              class="btn waves-effect blue darken-3"
+            >
+              <i class="material-icons right">send</i>
+              Посилання на законодавчу базу
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax-container valign-wrapper" id="base">
+      <div class="section no-pad-bot">
+      </div>
+      <div class="parallax">
+        <img src="img/01.jpg" alt="Unsplashed background img 3" />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 center">
+            <h3><i class="mdi-content-send brown-text"></i></h3>
+            <h4>Інспектор з паркування</h4>
+            <p class="center-align">
+              Інспектор з паркування - це посадова особа, яка працює в
+              органах місцевого самоврядування, має відповідні посадові
+              повноваження щодо здійснення організаційно-розпорядчих та
+              консультативно-дорадчих функцій і отримує заробітну плату за
+              рахунок місцевого бюджету, і якій надано право розглядати
+              справи про адміністративні правопорушення, передбачені
+              частинами першою і третьою статті 122, частинами першою і
+              другою статті 152-1 КУпАП.
+            </p>
+            <a
+              href="http://zakon.rada.gov.ua/laws/show/2262-19#n45"
+              target="_blank"
+              class="btn waves-effect blue darken-3"
+            >
+              <i class="material-icons right">send</i>
+              Посилання на законодавчу базу
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+      </div>
+      <div class="parallax">
+        <img src="img/05.jpeg" alt="Unsplashed background img 3" />
+      </div>
+    </div>
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12">
+            <h3><i class="mdi-content-send brown-text"></i></h3>
+            <h4 class="center">Нормативна база</h4>
+            <ol>
+              <li>
+                <a
+                  href="https://zakon.rada.gov.ua/laws/show/2262-19#Text"
+                  target="_blank"
+                  class="black-text"
+                >
+                  Закон України "Про внесення змін до деяких законодавчих актів
+                  України щодо реформування сфери паркування транспортних
+                  засобів" Документ 2262-VIII.
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://zakon.rada.gov.ua/laws/show/80731-10"
+                  target="_blank"
+                  class="black-text"
+                >
+                  КУпАП
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://zakon.rada.gov.ua/laws/show/2262-19#Text"
+                  target="_blank"
+                  class="black-text"
+                >
+
+                  Рішення Львівської міської ради 1036 від 21.09.2018
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://zakon.rada.gov.ua/laws/show/2262-19#Text"
+                  target="_blank"
+                  class="black-text"
+                >
+                  Положення про управління транспорту
+                </a>
+              </li>
+            </гl>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+      </div>
+      <div class="parallax">
+        <img src="img/04.jpg" alt="Unsplashed background img 3" />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 left-align">
+            <h3><i class="mdi-content-send brown-text"></i></h3>
+            <h4>Порядок евакуації та зберігання
+            </h4>
+            <p>
+              1. Підстави Тимчасового затримання транспортних засобів інспекторами з паркування.
+            </p>
+            <a
+              href="https://zakon.rada.gov.ua/laws/show/2262-19#n72"
+              target="_blank"
+              class="btn waves-effect blue darken-3"
+            >
+              <i class="material-icons right">send</i>
+              Посилання на законодавчу базу
+            </a>
+            <p>
+              2. Порядок евакуації та вартість зберігання
+            </p>
+            <a
+              href="https://www8.city-adm.lviv.ua/inteam/uhvaly.nsf/(SearchForWeb)/1431BE1CFBFD8CC5C225832F00360A38"
+              target="_blank"
+              class="btn waves-effect blue darken-3"
+            >
+              <i class="material-icons right">send</i>
+              Посилання на законодавчу базу
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+      </div>
+      <div class="parallax">
+        <img src="img/06.jpg" alt="Unsplashed background img 3" />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 left-align">
+            <h3><i class="mdi-content-send brown-text"></i></h3>
+            <h4 class="center">Підстави звільнення від адміністративної відповідальності
+            </h4>
+            <p>
+              Звільнення відповідальної особи, за порушення правил зупинки, стоянки, паркування транспортних засобів, зафіксоване в режимі фотозйомки (відеозапису).
+            </p>
+            <a
+              href="https://zakon.rada.gov.ua/laws/show/2262-19#n117"
+              target="_blank"
+              class="btn waves-effect blue darken-3"
+            >
+              <i class="material-icons right">send</i>
+              Посилання на законодавчу базу
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="page-footer blue darken-3" id="contacts">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 center-align" >
+            <h5 class="white-text">Контакти</h5>
+            <p class="grey-text text-lighten-4">
+              Адреса: м.Львів, вул.Сахарова 2
+            </p>
+            <p class="grey-text text-lighten-4">
+              Контактний номер: <a class="grey-text text-lighten-4" href="tel:+380322615566">+38 (0322) 61-55-66</a>
+            </p>
+            <p class="grey-text text-lighten-4">
+              Електронна пошта: <a  class="grey-text text-lighten-4"href="mailto:parking.lviv.inspector@gmail.com">parking.lviv.inspector@gmail.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+  </body>
+</html>
