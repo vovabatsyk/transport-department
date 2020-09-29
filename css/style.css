@@ -15,10 +15,6 @@ p {
   line-height: 2rem;
 }
 
-.sidenav-trigger {
-  color: #26a69a;
-}
-
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -39,12 +35,6 @@ p {
   }
 }
 
-@media only screen and (max-width: 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
 .icon-block {
   padding: 0 15px;
 }
@@ -56,12 +46,61 @@ footer.page-footer {
   margin: 0;
 }
 
-.brand-logo {
-  margin-top: 8px;
+.navbar__logo {
+  margin: 2px 0 0 5px;
 }
 
 .check-number {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.info__svg {
+  width: 150px;
+  height: 150px;
+  margin-left: 10%;
+}
+
+.info__img {
+  width: 300px;
+}
+
+.info__ol  {
+  list-style-type: disc;
+}
+
+.info__ol > ol  {
+  list-style-type: circle;
+}
+
+.payment {
+  padding: 5px;
+  margin-bottom: 2rem;
+}
+.text__format{
+  text-align: justify;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .info__svg {
+    margin-left: 25%;
+  }
+  .info__img {
+    margin-left: 12%;
+    width: 200px;
+  }
+  .info__header{
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .navbar__logo {
+    display: none;
+  }
 }
