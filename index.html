@@ -41,7 +41,7 @@
     <li><a href="#about">Про управління</a></li>
     <li><a href="#base">Нормативна база</a></li>
     <li><a href="#info">На замітку водіям</a></li>
-    <li><a href="#about">Контакти</a></li>
+    <li><a href="#contacts">Контакти</a></li>
   </ul>
   <!-- End Navbar -->
 
@@ -81,7 +81,7 @@
                   </label>
                 </p>
               </div>
-              <button class="btn waves-effect blue darken-3" type="submit" name="action">
+              <button class="btn waves-effect blue darken-3 modal-trigger" href="#modal">
                 Перевірити
               </button>
             </form>
@@ -108,7 +108,7 @@
                   </label>
                 </p>
               </div>
-              <button class="btn waves-effect blue darken-3" type="submit" name="action">
+              <button class="btn waves-effect blue darken-3 modal-trigger" href="#modal">
                 Знайти
               </button>
             </form>
@@ -132,7 +132,8 @@
         <div class="col s12 center">
           <p style="font-weight: bold;margin: 2px;" class="scrollspy" id="about">Департамент житлового господарства та
             інфраструктури</p>
-          <h4 style="margin: 2px;">Управління транспорту ЛМР</h4>
+          <h5 style="margin: 2px;"><b>Управління транспорту</b></h5>
+          <p style="margin: 1px;"><b>Львівської міської ради</b></p>
           <ol class="left-align">
             <li>Загальні положенн.</li>
             <li>Основні завдання.</li>
@@ -169,7 +170,7 @@
     <div class="section">
       <div class="row">
         <div class="col s12 center">
-          <h4>Інспектор з паркування</h4>
+          <h5><b>Інспектор з паркування</b></h5>
           <p class="text__format">
             <b>Інспектор з паркування</b> - це посадова особа, яка працює в
             органах місцевого самоврядування, має відповідні посадові
@@ -190,19 +191,12 @@
     </div>
   </div>
 
-  <!-- <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-    </div>
-    <div class="parallax">
-      <img src="img/05.jpeg" alt="Justice" />
-    </div>
-  </div> -->
   <div class="container">
     <img src="img/justice.svg" alt="" width="150" style="float: left;margin-left: 20px;">
     <div class="section">
       <div class="row">
         <div class="col s12">
-          <h4 class="center scrollspy" id="base">Нормативна база</h4>
+          <h5 class="center scrollspy" id="base"><b>Нормативна база</b></h5>
           <ol class="text__format">
             <li>
               <a href="https://www8.city-adm.lviv.ua/inteam/uhvaly.nsf/(SearchForWeb)/EB6BDF4DF9FCC53AC22584EA004240BB?OpenDocument"
@@ -451,10 +445,32 @@
     </div>
   </footer>
 
+  <!-- Modal Structure -->
+  <div id="modal" class="modal" style="width: 80%;">
+    <div class="modal-content">
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="https://lorempixel.com/580/250/nature/1"> <!-- random image -->
+          </li>
+          <li>
+            <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
+          </li>
+          <li>
+            <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
+          </li>
+          <li>
+            <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.min.js"></script>
   <script src="js/init.js"></script>
-  <script src="js/script.js"></script>
 </body>
 
 </html>
