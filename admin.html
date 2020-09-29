@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Управління транспорту ЛМР</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <h4 class="center">Загрузка даних</h4>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="text" type="text" class="validate">
+                    <label for="text">Номерний знак авто</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="text2" type="text" class="validate">
+                    <label for="text2">Номер постанови</label>
+                </div>
+            </div>
+
+            <div class="file-field input-field">
+                <div class="btn blue">
+                    <span><i class="material-icons left">cloud</i>Фото</span>
+                    <input type="file" multiple>
+                </div>
+                <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text" placeholder="Додати фотографії">
+                </div>
+            </div>
+
+            <p>
+                <label>
+                    <input type="checkbox" />
+                    <span>Евакуація?</span>
+                </label>
+            </p>
+            <button class="waves-effect waves-light btn green accent-4"><i class="material-icons left">send</i>Зберегти</button>
+            <button class="waves-effect waves-light red btn right"><i class="material-icons left">exit_to_app</i>Вихід</button>
+        </form>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/init.js"></script>
+</body>
+
+</html>

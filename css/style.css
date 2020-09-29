@@ -81,6 +81,7 @@ footer.page-footer {
   text-align: justify;
 }
 
+
 @media only screen and (max-width: 600px) {
   #index-banner .section {
     top: 0;
